@@ -1,0 +1,54 @@
+.tech-title {
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 1100px;
+    margin: auto;
+}
+.tech-title>img {
+    width: 23px;
+    height: 25px;
+}
+.tech-grid-container {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin: auto;
+}
+.tech-thumb {
+    width: 263.75px;
+    height: 170px;
+}
+.tech-grid {
+    height: 300px;
+    display: grid;
+    grid-template-rows: 170px 94px 34px;
+}
+.tech-stat {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #888888;
+    box-sizing: border-box;
+    padding: 11px;
+    justify-content: flex-start;
+    border: solid 1px #f1f1f1;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+.arrow-tech-stat {
+    width: 12.34px;
+    height: 12px;
+}
+.comment-tech-stat {
+    width: 12px;
+    height: 10.98px;
+}
+.tech-desc {
+    padding: 11px 11px 11px 11px;
+    border-top: none;
+    border: solid 1px #f1f1f1;
+}

@@ -1,0 +1,73 @@
+.trend-container {
+    width: 1180px;
+    display: flex;
+    gap: 26px;
+    margin: auto;
+}
+.trend-grid-container {
+    width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+.trend-thumb {
+    width: 263.75px;
+    height: 230px;
+}
+.main-trend-head {
+    font-size: 26px;
+    font-weight: 700;
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+}
+.trend-title {
+    background-color: #00b0f4;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 99.5px;
+    height: 24px;
+    margin-right: 3px;
+    align-content: center;
+    border-radius: 3px;   
+}
+.trend-grid {
+    height: 360px;
+    display: grid;
+    grid-template-rows: 230px 94px 34px;
+}
+.trend-stat {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #888888;
+    box-sizing: border-box;
+    padding: 11px;
+    justify-content: flex-start;
+    border: solid 1px #f1f1f1;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+}
+.arrow-trend-stat {
+    width: 12.34px;
+    height: 12px;
+}
+.comment-trend-stat {
+    width: 12px;
+    height: 10.98px;
+}
+.trend-grid-desc {
+    padding: 11px 11px 11px 11px;
+    border-top: none;
+    border: solid 1px #f1f1f1;
+}
+.main-trend-option-button {
+    background: none;
+    border: none;
+    width: 14px;
+    height: 24px;
+    align-self: center;
+}

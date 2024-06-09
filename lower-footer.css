@@ -1,0 +1,25 @@
+.copyright {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.lower-footer {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.social-address-img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+.social-address {
+    display: flex;
+    gap: 15px;
+}
+.social-address-img:hover {
+    fill: #000000;
+}
