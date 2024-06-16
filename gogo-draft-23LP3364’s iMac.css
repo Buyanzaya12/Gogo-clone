@@ -56,15 +56,13 @@ header {
     margin-top: 2.95px;
     margin-left: 20px;
 } 
-@media (max-width: 960px) {
-        .navigation {
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-    }
+@media {
+    
+}
 .top-widget {
     display: flex;
     margin-left: 110.83px;
+    margin-top: px;
 }
 #logo {
     width: 119px;

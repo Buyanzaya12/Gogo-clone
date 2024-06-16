@@ -10,12 +10,15 @@ aside {
 }
 .highlight-news-title>img {
     width: 25px;
+    height: 30px;
 }
 .highlight-news-title {
     font-size: 20px;
     font-weight: 700;
     display: flex;
-    align-self: center;
+    align-items: center;
+    gap: 15px;
+    align-content: center;
 }
 .aside-thumb>img {
     width: 290px;

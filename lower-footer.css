@@ -23,3 +23,6 @@
 .social-address-img:hover {
     fill: #000000;
 }
+.social-address-img::selection {
+    color: #000000;
+}
